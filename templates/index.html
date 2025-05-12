@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ipypetrinet Web App</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+            integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+            crossorigin="anonymous"></script>
+    <!-- CSS will be injected by style-loader via bundle.js -->
+</head>
+<body>
+    <h1>ipypetrinet Standalone</h1>
+
+    <div id="petrinet-widget-container">
+        <!-- The Petri net widget will be rendered here by JavaScript -->
+        <p>Loading Petri net widget...</p>
+    </div>
+
+    <script src="{{ url_for('static', filename='js/bundle.js') }}"></script>
+    <!-- JavaScript bundle will be loaded by Gradio's demo.load() method -->
+    <!-- <script src="file:///C:/Users/samoed/Documents/GitHub/ipypetrinet/webapp/static/js/bundle.js"></script> -->
+</body>
+</html> 
