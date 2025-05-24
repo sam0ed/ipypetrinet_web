@@ -1,6 +1,10 @@
 # ipypetrinet_web Standalone Application
 
-This project provides a standalone web interface for ipypetrinet functionality. It uses Flask as the web framework and JointJS for the frontend visualization.
+This project provides a standalone web interface for ipypetrinet functionality. It uses Flask as the web framework and JointJS for the frontend visualization. It is a fork of a project by LordHeImchen, celled
+[ipypetrinet](https://github.com/LordHeImchen/ipypetrinet) 
+
+This is how the widget looks in browser:
+![image](https://github.com/user-attachments/assets/a4cb90a1-c340-497b-b02e-41f2fe03ea9c)
 
 ## Prerequisites
 
